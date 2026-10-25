@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" role="img" aria-labelledby="title desc">
+  <title id="title">Alive Fashion Studio</title><desc id="desc">Elegant burgundy fashion studio logo with a dress emblem and gold details.</desc>
+  <defs><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2d49a"/><stop offset="1" stop-color="#b88643"/></linearGradient></defs>
+  <g transform="translate(18 12)">
+    <circle cx="74" cy="76" r="66" fill="#fff8f0" stroke="url(#gold)" stroke-width="3"/>
+    <path d="M74 20 C67 20 62 26 63 33 C64 39 68 42 74 42 C80 42 84 37 84 31 C84 25 80 20 74 20Z" fill="#2e2028"/>
+    <path d="M66 43 Q74 48 82 43 L92 60 L105 72 L94 78 L85 67 L88 91 L113 139 Q74 154 35 139 L60 91 L63 67 L53 79 L42 73 L57 58Z" fill="#7b1738" stroke="url(#gold)" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M61 61 L74 49 L87 61 L81 80 L67 80Z" fill="#f7e8d9" stroke="url(#gold)" stroke-width="1.7"/>
+    <path d="M60 91 Q74 101 88 91 M49 118 Q74 130 99 118" fill="none" stroke="url(#gold)" stroke-width="2"/>
+    <path d="M74 49 L74 143" stroke="#d4a55e" stroke-width="1.4" stroke-dasharray="2 4"/>
+    <path d="M29 54 Q17 75 30 100 M119 54 Q131 75 118 100" fill="none" stroke="#b88643" stroke-width="2"/>
+    <path d="M28 39 l4 8 9 1 -7 6 2 9 -8 -5 -8 5 2 -9 -7 -6 9 -1Z" fill="url(#gold)" transform="translate(4 -1) scale(.6)"/>
+  </g>
+  <text x="174" y="86" fill="#751536" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="bold" letter-spacing="2">ALIVE</text>
+  <text x="178" y="121" fill="#2d2429" font-family="Arial, sans-serif" font-size="22" letter-spacing="7">FASHION STUDIO</text>
+  <line x1="179" y1="137" x2="526" y2="137" stroke="#c69a54" stroke-width="1.5"/>
+  <text x="179" y="158" fill="#65545a" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic" letter-spacing=".4">Designed for You, Tailored to Perfection</text>
+</svg>
