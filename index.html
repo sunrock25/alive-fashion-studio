@@ -101,12 +101,24 @@
     <section id="gallery" class="section gallery-section">
       <div class="section-heading"><p class="eyebrow">OUR WORK</p><h2>Studio Gallery</h2><p>Premium silhouettes, handcrafted finishes and elegant everyday wear.</p></div>
       <div class="gallery-grid">
-        <img src="assets/ethnic-wear.jpg" alt="Ethnic wear portrait">
-        <img src="assets/party-wear.jpg" alt="Party wear portrait">
-        <img src="assets/indian-western.jpg" alt="Indian western fashion portrait">
-        <img src="assets/mens-collection.jpg" alt="Men's collection portrait">
-        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80" alt="Fashion model portrait">
-        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Luxury western look">
+        <button class="gallery-item" type="button" data-full="assets/ethnic-wear.jpg" aria-label="Open Ethnic wear image">
+          <img src="assets/ethnic-wear.jpg" alt="Ethnic wear portrait">
+        </button>
+        <button class="gallery-item" type="button" data-full="assets/party-wear.jpg" aria-label="Open Party wear image">
+          <img src="assets/party-wear.jpg" alt="Party wear portrait">
+        </button>
+        <button class="gallery-item" type="button" data-full="assets/indian-western.jpg" aria-label="Open Indian western image">
+          <img src="assets/indian-western.jpg" alt="Indian western fashion portrait">
+        </button>
+        <button class="gallery-item" type="button" data-full="assets/mens-collection.jpg" aria-label="Open Men's collection image">
+          <img src="assets/mens-collection.jpg" alt="Men's collection portrait">
+        </button>
+        <button class="gallery-item" type="button" data-full="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80" aria-label="Open model portrait image">
+          <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80" alt="Fashion model portrait">
+        </button>
+        <button class="gallery-item" type="button" data-full="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" aria-label="Open premium western image">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Luxury western look">
+        </button>
       </div>
     </section>
 
@@ -136,6 +148,12 @@
     <div class="footer-main"><a href="#home" class="footer-brand"><img src="logo.png" alt="Alive Fashion Studio"></a><div><h3>Quick Links</h3><a href="#about">About</a><a href="#collections">Collections</a><a href="#services">Services</a><a href="#contact">Contact</a></div><div><h3>Visit</h3><p>85/7 Chanditala Lane<br>AshokNagar, Kolkata 700040</p><a href="mailto:aalivefashionstudio@gmail.com">aalivefashionstudio@gmail.com</a></div></div>
     <div class="footer-bottom"><span>© <span id="year"></span> Alive Fashion Studio. All rights reserved.</span><a href="#home">Back to top ↑</a></div>
   </footer>
+
+  <div id="gallery-lightbox" class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+    <img id="lightbox-image" src="" alt="Expanded gallery image">
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
