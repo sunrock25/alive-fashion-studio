@@ -333,6 +333,78 @@ main { max-width: 1200px; margin: 0 auto; padding: 0 24px 48px; }
 .service h3 { margin: 0 0 6px; color: var(--wine); font-size: 1.06rem; }
 .service p { margin: 0; color: var(--muted); }
 
+.measurements-section {
+  padding-top: 28px;
+}
+.measurement-wrap {
+  background: #fffaf7;
+  padding: 24px;
+  border: 1px solid rgba(117, 21, 54, 0.08);
+  border-radius: 24px;
+}
+.measurement-toggle {
+  margin-bottom: 20px;
+}
+.measurement-panel {
+  transition: opacity 0.2s ease;
+}
+.measurement-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.measurement-item {
+  background: #fff;
+  border: 1px solid rgba(117, 21, 54, 0.08);
+  border-radius: 18px;
+  padding: 16px 14px;
+}
+.measurement-item span {
+  display: block;
+  color: var(--wine);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.measurement-item strong {
+  display: block;
+  color: var(--ink);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.measurement-table-wrap {
+  overflow-x: auto;
+}
+.measurement-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border: 1px solid rgba(117, 21, 54, 0.08);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.measurement-table th,
+.measurement-table td {
+  border-bottom: 1px solid rgba(117, 21, 54, 0.08);
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: top;
+}
+.measurement-table th {
+  background: #f8e9ee;
+  color: var(--wine);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.measurement-table td {
+  color: var(--muted);
+}
+.measurement-table tr:last-child td { border-bottom: none; }
+
 .gallery-section { padding-top: 46px; }
 .gallery-grid {
   display: grid;
@@ -500,6 +572,7 @@ main { max-width: 1200px; margin: 0 auto; padding: 0 24px 48px; }
   .features { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .contact-grid { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .measurement-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .gallery-banner { padding: 24px 20px; }
   .nav { display: none; }
 }
@@ -512,7 +585,8 @@ main { max-width: 1200px; margin: 0 auto; padding: 0 24px 48px; }
   .features,
   .collection-grid,
   .services-grid,
-  .gallery-grid { grid-template-columns: 1fr; }
+  .gallery-grid,
+  .measurement-grid { grid-template-columns: 1fr; }
   .section-light { padding-left: 16px; padding-right: 16px; }
   .collection-card .collection-image { height: 220px; }
   .gallery-banner h2 { font-size: 1.8rem; }
